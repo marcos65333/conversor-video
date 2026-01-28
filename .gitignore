@@ -1,3 +1,13 @@
 
-venv/bin/activate
+
 venv/
+```gitignore
+__pycache__/
+*.pyc
+dist/
+build/
+.venv/
+*.AppImage
+AppDir/AppRun
+ffmpeg
+AppDir/
