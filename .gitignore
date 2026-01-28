@@ -1,13 +1,22 @@
-
-
-venv/
-```gitignore
+# Python
 __pycache__/
 *.pyc
-dist/
-build/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
 .venv/
-*.AppImage
-AppDir/AppRun
-ffmpeg
+
+# Build / packaging
+build/
+dist/
 AppDir/
+
+# Binaries / artifacts
+*.AppImage
+ffmpeg
+
+# OS files
+.DS_Store
+Thumbs.db
